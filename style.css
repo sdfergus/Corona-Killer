@@ -27,9 +27,9 @@ header {
 main {
   height: 90vh;
   color: #eee;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-around; */
 }
 
 /* ELEMENTS STYLE */
@@ -94,4 +94,8 @@ h1 {
 
 .virus-img-1 {
   width: 5rem;
+}
+
+.needle-shooter-img {
+  width: 4rem;
 }
