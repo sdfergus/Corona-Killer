@@ -32,3 +32,15 @@ function moveSelection(event) {
 function docReady() {
   window.addEventListener('keydown', moveSelection);
 }
+
+//Left-right funcitonality - from 2013 browsers
+// function moveSelection(event) {
+//   switch (event.keyCode) {
+//     case 37:
+//       leftArrowPressed();
+//       break;
+//     case 39:
+//       rightArrowPressed();
+//       break;
+//   }
+// }

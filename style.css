@@ -89,6 +89,7 @@ h1 {
 .start-label {
   color: aqua;
   margin-bottom: 30rem;
+  text-transform: uppercase;
 }
 
 #virus-img-1 {
