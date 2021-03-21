@@ -96,6 +96,15 @@ h1 {
   width: 5rem;
 }
 
+.v-laser {
+  width: 5rem;
+  position: relative;
+}
+
+/* #laser-img {
+  width: 5rem;
+} */
+
 /* .needle-shooter-img2 {
   position: absolute;
   width: 4rem;
@@ -119,3 +128,7 @@ h1 {
 .hidden {
   display: none;
 }
+
+/* #main-play-area {
+  background-image: url(01.png);
+} */
