@@ -15,6 +15,8 @@ body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 /* LAYOUT */
@@ -86,16 +88,33 @@ h1 {
 
 .start-label {
   color: aqua;
+  margin-bottom: 30rem;
+}
+
+#virus-img-1 {
+  width: 5rem;
+}
+
+/* .needle-shooter-img2 {
+  position: absolute;
+  width: 4rem;
+  left: 0;
+  top: 80%;
+} */
+
+#needle-shooter-img {
+  position: absolute;
+  width: 4rem;
+  left: 50%;
+  top: 80%;
+  /* position: absolute; */
+  /* left: 0;
+  top: 0; */
+  /* height: 15;
+  width: 15; */
+  /* margin-top: 2rem; */
 }
 
 .hidden {
   display: none;
-}
-
-.virus-img-1 {
-  width: 5rem;
-}
-
-.needle-shooter-img {
-  width: 4rem;
 }

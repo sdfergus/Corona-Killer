@@ -7,26 +7,32 @@
     <title>Corona Killer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <body>
-        <header>
-            <section class="life-left">
-                <p class="life-label">Life</p>
-                <p class="life-num">12</p>
-            </section>
-            <section class="score-right">
-                <p class="score-label">Score</p>
-                <p class="score-num">2300</p>
-            </section>
-        </header>
-        <main>
-            <section class="start-sec">
-                <p class="start-label">Start!</p>
-                <img src="images/needleShooter_white@1x.png" alt="needle_white" class="needle-shooter-img">
-            </section>
-            <img src="images/virus-img.png" alt="virus-img" class="virus-img-1">
-            <!-- <h1>Start!</h1> -->
-        </main>
+  <body onload="docReady()" onkeydown="" onkeyup="">
+    <!-- <body onload="docReady()" onkeydown="" onkeyup=""> -->
+    <header>
+      <section class="life-left">
+        <p class="life-label">Life</p>
+        <p class="life-num">12</p>
+      </section>
+      <section class="score-right">
+        <p class="score-label">Score</p>
+        <p class="score-num">2300</p>
+      </section>
+    </header>
+    <main>
+      <section class="start-sec">
+        <p class="start-label">Start!</p>
+      </section>
+      <section class="needle-sec">
+        <img
+          src="images/needleShooter_white@1x.png"
+          alt="needle_white"
+          id="needle-shooter-img"
+        />
+      </section>
+      <img src="images/virus-img.png" alt="virus-img" id="virus-img-1" />
+      <!-- <h1>Start!</h1> -->
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
